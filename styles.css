@@ -131,41 +131,8 @@ img{
     margin-top: 60px;
 }
 
-@media only screen and (max-width:950px){
-    .container{
-        height: fit-content;
-        padding: 40px;
-    }
 
-    .sub-container{
-        padding: 30px 30px;
-       height: fit-content;
-       min-width: fit-content;
-       text-align: center;
-    }
-
-
-    .promoText{
-        
-        font-size: 35px;
-    
-    }
-
-    .rate-text{
-      
-        font-size: 0.8rem ;
-        font-weight: 400;
-        margin-left: 5px;
-        
-    }
-
-    .star-svg{
-        width:10px;
-        height:10px;
-    }
-}
-
-@media only screen and (max-width:600px){
+@media only screen and (max-width:599px){
     .container{
         height: fit-content;
         padding: 20px;
@@ -270,4 +237,44 @@ img{
         height: fit-content;
     }
 
+
+
 } 
+
+@media only screen and (min-width:600px ) and (max-width:950px){
+    .container{
+        height: fit-content;
+        padding: 40px;
+    }
+
+    .sub-container{
+        padding: 30px 30px;
+       height: fit-content;
+       min-width: fit-content;
+       text-align: center;
+    }
+
+
+    .promoText{
+        
+        font-size: 35px;
+    
+    }
+
+    .rate-text{
+      
+        font-size: 0.8rem ;
+        font-weight: 400;
+        margin-left: 5px;
+        
+    }
+
+    .star-svg{
+        width:10px;
+        height:10px;
+    }
+
+    .sectionTwo{
+        flex-wrap: wrap;
+    }
+}
